@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go-web-dasar/renderstrings"
+	"go-web-dasar/ajxresponse"
 )
 
 func main() {
@@ -31,5 +31,17 @@ func main() {
 	// renders.Renders()
 
 	// penggunaan render string
-	renderstrings.RenderStrings()
+	// renderstrings.RenderStrings()
+
+	// penggunaan form value
+	// formvalues.FormValues()
+
+	// penggunaan form value untuk upload gambar
+	// uploads.Uploads()
+
+	// penggunaan payload ajax json
+	// payloads.Payloads()
+
+	// penggunaan ajax response
+	ajxresponse.Responses()
 }
